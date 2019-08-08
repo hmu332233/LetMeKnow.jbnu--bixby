@@ -1,0 +1,3 @@
+text (Utterance) {
+  description (유저로부터 받은 모든 단어)
+}

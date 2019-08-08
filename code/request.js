@@ -1,4 +1,4 @@
-module.exports.function = function request () {
+module.exports.function = function request (utterance) {
   const http = require('http');
   const console = require('console');
   const data = {
@@ -6,7 +6,7 @@ module.exports.function = function request () {
       user: {
         id: 'bixby_user'
       },
-      utterance: '진수당'
+      utterance: utterance
     }
   }
   const res = http.postUrl('', data, { passAsJson: true });

@@ -1,4 +1,11 @@
 action (Request) {
   description (server에 요청을 보내는 action)
+  collect {
+    // Input Concept 정의
+    input (utterance) { //  비즈니스 로직에서 사용할 변수명
+      type (Utterance) // Concept 이름
+      min (Required) max (One) // min - (받을 여부가 옵션인 경우 Optional, 무조건 받아야하는 경우 Required), max - (하나의 정보만 받을경우 One, 여러 정보를 받을 경우 Many)
+    }
+  }
   output (Results)
 }

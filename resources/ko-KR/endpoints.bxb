@@ -1,7 +1,7 @@
 endpoints {
   action-endpoints {
     action-endpoint (Request) {
-      accepted-inputs ()
+      accepted-inputs (utterance)
       local-endpoint (request.js)
     }
   }
