@@ -1,7 +1,7 @@
 module.exports.function = function request (utterance) {
   const secret = require('secret');
   const http = require('http');
-  const console = require('console');
+
   const data = {
     userRequest: {
       user: {
@@ -9,9 +9,10 @@ module.exports.function = function request (utterance) {
       },
       utterance: utterance
     }
-  }
-  const res = http.postUrl(secret.get('bot'), data, { passAsJson: true });
+  };
+  
+  const res = http.postUrl(secret.get('bot'), data, { format: 'json', passAsJson: true });
   return {
-    message: JSON.parse(res).template.outputs[0].simpleText.text
+    message: res.template.outputs[0].simpleText.text
   }
 }
