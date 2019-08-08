@@ -1,0 +1,17 @@
+result-view {
+  match: Results(this)
+
+  message {
+    template ("알려줘전북대에 물어본 결과입니다.") {
+      speech ("아래의 결과를 확인해보세요!")
+    }
+  }
+  
+  render {
+    layout-macro (resultDetails) {
+      param (resultInfo) {
+        expression (this)
+      }
+    }
+  }
+}

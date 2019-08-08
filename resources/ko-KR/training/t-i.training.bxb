@@ -1,5 +1,5 @@
 train (t-iwhmei1801veorzfbg1etmwx6) {
-  utterance ([g:Message] 진수당 메뉴 알려줘)
-  plan (Y2BkkMjNzCvNS9fLSM0piM9KyivV800tLk5MT2UAAUYQAQA=)
-  last-modified (1565275105002)
+  utterance ([g:Results] 진수당 메뉴 알려줘)
+  plan (Y2BkkMjNzCvNS9fLSM0piM9KyivVC0otLs0pKWYAAUYQAQA=)
+  last-modified (1565276653405)
 }

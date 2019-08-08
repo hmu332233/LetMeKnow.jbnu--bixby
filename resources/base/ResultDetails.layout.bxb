@@ -1,0 +1,19 @@
+layout-macro-def (resultDetails) {
+  params {
+    param (resultInfo) {
+      type (Results)
+      min (Optional) max (One)
+    }
+  }
+
+  content {
+    section {
+      content {
+        paragraph {
+          value ("#{value(resultInfo.message)}")
+          style (Detail_M)
+        }
+      }
+    }
+  }
+}
