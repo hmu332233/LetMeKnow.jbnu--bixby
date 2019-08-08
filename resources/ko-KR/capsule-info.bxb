@@ -1,0 +1,15 @@
+capsule-info {
+  display-name (알려줘전북대)
+  developer-name (minung.han)
+  dispatch-name (알전)
+  icon-asset (/images/logo.png)
+  description ("전북대생을 위한 손안의 비서 '알려줘전북대'의 빅스비 버전입니다. - 학사공지, 학식, 날씨, 버스, 기숙사 등")
+  website-url (https://pf.kakao.com/_LffxoM)
+  search-keywords {
+    keyword (알려줘전북대)
+    keyword (전북대)
+    keyword (전북대학교)
+    keyword (챗봇)
+    keyword (학식)
+  }
+}
