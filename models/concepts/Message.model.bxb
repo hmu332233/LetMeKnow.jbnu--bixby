@@ -1,0 +1,3 @@
+text (Message) {
+  description (Api로부터 받아온 최종 메세지)
+}

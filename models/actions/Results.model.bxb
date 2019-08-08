@@ -1,0 +1,7 @@
+structure (Results) {
+  description (화면에 보여줄 최종)
+  property (message) {
+    type (Message)
+    min (Optional) max (One)
+  }
+}

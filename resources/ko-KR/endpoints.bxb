@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (Request) {
+      accepted-inputs ()
+      local-endpoint (request.js)
+    }
+  }
+}
